@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
+import Routes from './routes';
 
-
-ReactDOM.render(<div> No more mwahs </div> , document.getElementById('main'));
+ReactDOM.render(<Routes />, document.getElementById('main'));
